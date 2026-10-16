@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Kedai Apple - Tempat Segar dan Lezat</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #292929;
+
+            /* BACKGROUND */
+            background:
+                linear-gradient(
+                    rgba(255, 255, 255, 0.82),
+                    rgba(255, 255, 255, 0.82)
+                ),
+                url("https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=1200&q=80");
+
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* CONTAINER */
+        .container {
+            max-width: 900px;
+            margin: auto;
+            min-height: 100vh;
+            background: rgba(255, 255, 255, 0.65);
+        }
+
+        /* HEADER */
+        header {
+            text-align: center;
+            padding: 25px 20px 10px;
+        }
+
+        /* LOGO */
+        .logo {
+            font-size: 70px;
+            line-height: 1;
+            margin-bottom: 8px;
+            filter: drop-shadow(0 3px 3px rgba(0,0,0,0.2));
+        }
+
+        .logo-text {
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        /* NAVIGASI */
+        nav {
+            text-align: center;
+            padding: 15px;
+            border-bottom: 1px solid rgba(0,0,0,0.2);
+        }
+
+        nav a {
+            color: #b42323;
+            font-weight: bold;
+            text-decoration: underline;
+            margin: 0 5px;
+        }
+
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 35px 25px 30px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            font-weight: normal;
+            margin: 0 0 25px;
+        }
+
+        .hero p {
+            font-size: 22px;
+            font-style: italic;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        /* CONTENT */
+        .content {
+            padding: 30px;
+            border-top: 1px solid rgba(0,0,0,0.25);
+        }
+
+        .content p {
+            font-size: 21px;
+            line-height: 1.8;
+            margin-top: 0;
+        }
+
+        /* JUDUL */
+        h2 {
+            font-size: 32px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        /* MENU */
+        .menu {
+            font-size: 21px;
+            line-height: 1.8;
+        }
+
+        .menu ul {
+            padding-left: 35px;
+        }
+
+        .menu li {
+            margin-bottom: 5px;
+        }
+
+        /* KARTU MENU */
+        .menu-card {
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            padding: 15px 20px;
+            margin: 15px 0;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .harga {
+            float: right;
+            font-weight: bold;
+            color: #b42323;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            color: #666;
+            font-size: 18px;
+            padding: 35px 15px 20px;
+        }
+
+        /* RESPONSIVE HP */
+        @media (max-width: 600px) {
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 20px;
+            }
+
+            .content {
+                padding: 25px;
+            }
+
+            .content p {
+                font-size: 19px;
+            }
+
+            h2 {
+                font-size: 29px;
+            }
+
+            .menu {
+                font-size: 19px;
+            }
+
+            .logo {
+                font-size: 60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <header>
+
+        <!-- LOGO -->
+        <div class="logo">🍎</div>
+
+        <div class="logo-text">
+            KEDAI APPLE
+        </div>
+
+        <!-- NAVIGASI -->
+        <nav>
+            <a href="index.html">Beranda</a>
+            |
+            <a href="jadwal.html">Jadwal Operasional</a>
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <h1>
+            Selamat Datang di<br>
+            Kedai Apple
+        </h1>
+
+        <p>
+            "Kesegaran apel terbaik untuk menemani
+            hari-harimu."
+        </p>
+
+    </section>
+
+
+    <!-- CONTENT -->
+    <section class="content">
+
+        <p>
+            Kedai Apple didirikan sejak tahun 2026
+            untuk menyediakan berbagai olahan apel
+            yang segar, lezat, dan berkualitas.
+            Kami berkomitmen memberikan produk terbaik
+            dengan harga yang terjangkau bagi semua
+            pelanggan.
+        </p>
+
+
+        <!-- MENU -->
+        <h2>
+            Menu Favorit Kami
+        </h2>
+
+        <div class="menu">
+
+            <div class="menu-card">
+                <strong>🍎 Minuman</strong>
+
+                <ul>
+                    <li>
+                        Jus Apel Segar
+                        <span class="harga">Rp10.000</span>
+                    </li>
+
+                    <li>
+                        Apple Tea
+                        <span class="harga">Rp12.000</span>
+                    </li>
+
+                    <li>
+                        Apple Smoothie
+                        <span class="harga">Rp15.000</span>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="menu-card">
+                <strong>🍏 Makanan</strong>
+
+                <ul>
+                    <li>
+                        Pie Apel
+                        <span class="harga">Rp15.000</span>
+                    </li>
+
+                    <li>
+                        Roti Bakar Apel
+                        <span class="harga">Rp13.000</span>
+                    </li>
+
+                    <li>
+                        Salad Apel
+                        <span class="harga">Rp12.000</span>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="menu-card">
+                <strong>🍎 Camilan</strong>
+
+                <ul>
+                    <li>
+                        Apel Potong
+                        <span class="harga">Rp8.000</span>
+                    </li>
+
+                    <li>
+                        Keripik Apel
+                        <span class="harga">Rp10.000</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        Created by Dika aleksandra @2026
+    </footer>
+
+</div>
+
+</body>
+</html>
+</body>
+
+</html>
